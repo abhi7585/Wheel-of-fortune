@@ -24,9 +24,7 @@ class WOFHumanPlayer(WOFPlayer):
         WOFPlayer.__init__(self,name)
     def getmove(self, category, obscuredPhrase, guessed):
         user_inp = input("{} has ${}\nCategory: {}\nPhrase: {}\nGuessed: {}\n\n\nGuess a letter, phrase, or type 'exit' or 'pass':".format(self.name,self.prizeMoney,self.category,self.obscuredPhrase,self.guessed))
-
-
-    print(user_inp)
+        print(user_inp)
 
 # PASTE YOUR WOFComputerPlayer CLASS (from part C) HERE
 class WOFComputerPlayer(WOFPlayer):
